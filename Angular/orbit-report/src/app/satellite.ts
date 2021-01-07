@@ -3,7 +3,7 @@ export class Satellite{
     name: string = '';
     orbitType: string = '';
     type: string = '';
-    operational: boolean = false;
+    operational: boolean;
     launchDate: string = '';
     
     constructor(name: string, type: string, launchDate: string, orbitType: string, operational: boolean){
@@ -12,6 +12,10 @@ export class Satellite{
         this.type=type;
         this.operational=operational;
         this.launchDate=launchDate;
+    }
+
+    private newMethod(): boolean {
+        return false;
     }
 
     shouldShowWarning() {

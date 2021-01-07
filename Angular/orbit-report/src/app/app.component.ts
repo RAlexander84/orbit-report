@@ -2,11 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { Satellite } from './satellite';
 
 @Component({
-  selector: 'AppComponent',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-
 
 export class AppComponent  implements OnInit {
   title = 'orbit-report';
