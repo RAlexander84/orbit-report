@@ -1,17 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SatelliteComponent } from './satellite/satellite.component';
+import { OrbitListComponent } from './orbit-list/orbit-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SatelliteComponent
+    OrbitListComponent,
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],

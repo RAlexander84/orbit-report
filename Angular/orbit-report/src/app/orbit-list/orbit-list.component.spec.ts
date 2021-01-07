@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SatelliteComponent } from './satellite.component';
+import { OrbitListComponent } from './orbit-list.component';
 
-describe('SatelliteComponent', () => {
-  let component: SatelliteComponent;
-  let fixture: ComponentFixture<SatelliteComponent>;
+describe('OrbitListComponent', () => {
+  let component: OrbitListComponent;
+  let fixture: ComponentFixture<OrbitListComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SatelliteComponent ]
+      declarations: [ OrbitListComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SatelliteComponent);
+    fixture = TestBed.createComponent(OrbitListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
