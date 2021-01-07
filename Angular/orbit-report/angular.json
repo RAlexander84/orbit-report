@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "orbit-report"
+  "defaultProject": "orbit-report",
+  "cli": {
+    "analytics": "7fc3b61e-8458-42e1-8e47-9b38655ae3ce"
+  }
 }
